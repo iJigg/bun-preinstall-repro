@@ -29,8 +29,8 @@ jobs:
       - name: Install bun
         run: curl -fsSL https://bun.sh/install | bash
 
-      - name: Export bun
-        run: export PATH="~/.bun/bin/:$PATH"
+      - name: Source bashrc
+        run: source /home/runner/.bashrc
 
       - name: Enforce Bun canary version
         run: bun upgrade --canary
