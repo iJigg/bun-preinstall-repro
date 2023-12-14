@@ -1,0 +1,7 @@
+{
+  "name": "dependency",
+  "type": "module",
+  "scripts": {
+    "preinstall": "node preinstall.js"
+  }
+}

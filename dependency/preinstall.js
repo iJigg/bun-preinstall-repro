@@ -1,0 +1,1 @@
+throw new Error('Preinstall hook executed')
